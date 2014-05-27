@@ -21,11 +21,11 @@ public class Main {
 
 	private static final Logger logger = LoggerFactory.getLogger(Main.class);
 	
-	public static void main(String[] args){
+	public static void main(ApplicationContext context){
 		
-		String classpath = "classpath:/com/manuel/jordan/springframework/beans/central/springframework-central.xml";
+		//String classpath = "classpath:/com/manuel/jordan/springframework/beans/central/springframework-central.xml";
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext(classpath);
+		//ApplicationContext context = new ClassPathXmlApplicationContext(classpath);
 		
 		Person person01 = new Person();
 		person01.setId("001");
@@ -91,7 +91,7 @@ public class Main {
 			logger.error("{}", e.getMessage());
 		}
 		
-		((ClassPathXmlApplicationContext) context).close();
+		//((ClassPathXmlApplicationContext) context).close();
 		
 	}
 	
