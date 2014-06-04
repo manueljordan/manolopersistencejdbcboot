@@ -10,6 +10,8 @@
 	<name>ManoloPersistenceJdbcBoot</name>
 	<description>Spring Framework through Spring JDBC with Spring Boot</description>
 
+	<url>http://manueljordanelera.blogspot.com/</url>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
